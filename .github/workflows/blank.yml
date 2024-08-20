@@ -29,6 +29,6 @@ jobs:
         run: npm install -g cypress
      
       - name: Run Cypress Teste
-        run: npx cypress run
+        run:  npx cypress run --spec "cypress/e2e/**/*"
 
      
